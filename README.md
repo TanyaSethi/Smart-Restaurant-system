@@ -1,5 +1,6 @@
 # Smart-Restaurant-system
 Automate the functioning in a restaurant - ordering, food delivery to tables, and billing system.
+
 Demo - https://www.youtube.com/watch?v=DIH5YJOvsIg
 
 Components used:
