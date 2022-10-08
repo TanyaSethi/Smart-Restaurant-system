@@ -31,18 +31,15 @@ void loop(){
   //PIR and Gate_servo motor
   if(digitalRead(pirPin) == HIGH){
   //Serial.print("Motion Detected");
-  // digitalWrite(9,HIGH);
-for (pos = 0; pos <= 120; pos += 2) { 
-      myservo.write(pos);   
-      delay(50);          
-  }
+  for (pos = 0; pos <= 120; pos += 2) { 
+        myservo.write(pos);   
+        delay(50);          
+    }
 if(lockLow){
 
 //makes sure we wait for a transition to LOW before any further output is made:
 
 lockLow = false;
-
-//delay(50);
 
 }
 
